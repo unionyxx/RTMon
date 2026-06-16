@@ -2,6 +2,8 @@
 
 RTMon is a real-time system latency monitor for Linux, inspired by LatencyMon. It provides detailed insights into system scheduling latencies, interrupt handling, and page faults to help diagnose real-time performance issues, such as audio dropouts or gaming stutter.
 
+<img src="/screenshots/main.png" alt="RTMon Preview">
+
 ## Features
 
 - **Real-time Latency Tracking**: Monitor current and peak scheduling latencies in microseconds.
