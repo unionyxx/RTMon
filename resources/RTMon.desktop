@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=RTMon
+GenericName=Real-Time Latency Monitor
+Comment=Monitor system scheduling latency and interrupts
+Exec=RTMon
+Icon=RTMon
+Terminal=false
+Categories=System;Monitor;Qt;
+Keywords=latency;realtime;audio;monitoring;
+StartupNotify=true

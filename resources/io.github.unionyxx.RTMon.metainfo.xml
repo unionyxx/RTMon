@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.unionyxx.RTMon</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>RTMon</name>
+  <summary>Real-time system latency monitor for Linux</summary>
+  <description>
+    <p>
+      RTMon is a diagnostic tool designed to help users identify sources of system latency 
+      that can cause audio dropouts, stuttering in games, and other real-time performance issues.
+    </p>
+    <ul>
+      <li>Monitor scheduling latencies in microseconds</li>
+      <li>Analyze Hard and Soft IRQ distribution</li>
+      <li>Track major page faults</li>
+      <li>Receive automated diagnostic reports</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">RTMon.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window showing latency graph and IRQ tables</caption>
+      <image>https://raw.githubusercontent.com/unionyxx/RTMon/main/screenshots/main.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/unionyxx/RTMon</url>
+  <provides>
+    <binary>RTMon</binary>
+  </provides>
+</component>
